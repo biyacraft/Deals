@@ -51,12 +51,38 @@ const DashboardComp = () => {
           </div>
           <div className="flex p-4 items-center gap-7">
             <h3 className="text-gray-600">IN PROGRESS</h3>
-            <button><img src="Right-button.svg" alt="" /></button>
+            <button>
+              <img src="Right-button.svg" alt="" />
+            </button>
+          </div>
+        </div>
+        <div className="p-3">
+          <div className="flex gap-3">
+            <div className="bg-primary rounded-full w-12 h-12 flex items-center justify-center">
+              <div className="bg-white rounded-full w-4 h-4"></div>
+            </div>
+            <div>
+              <p className="text-gray-600">17 Nov 2021</p>
+              <p className="text-secondary font-bold">Lorem ipsum dolor sit amet consectetur.</p>
+              <p className="text-gray-600">2 images</p>
+            </div>
+          </div>
+          <div className="flex gap-3">
+            <div className="bg-primary rounded-full w-12 h-12 flex items-center justify-center">
+              <div className="bg-white rounded-full w-4 h-4"></div>
+            </div>
+            <div>
+              <p className="text-gray-600">17 Nov 2021</p>
+              <p className="text-secondary font-bold">Lorem ipsum dolor sit amet consectetur.</p>
+              <p className="text-gray-600">2 images</p>
+            </div>
+          </div>
+          <div className="text-primary font-extrabold p-4">
+            <button className="items-center w-full justify-center">Load More</button>
           </div>
         </div>
         </div>
     </div>
-
     </div>
   )
 }
