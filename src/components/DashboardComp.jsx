@@ -39,8 +39,9 @@ const DashboardComp = () => {
       </div>
       </div>
       <div className="w-2/3">
+        <div className="flex">
           <div className="flex items-center p-4 gap-1">
-            <div>
+            <div >
               <img className="rounded-full w-12 h-12" src="user.png" alt="" />
             </div>
             <div className="flex-col">
@@ -48,9 +49,11 @@ const DashboardComp = () => {
               <p className="text-gray-600">Claveland OH  1234</p>
             </div>
           </div>
-          <div>
-            
+          <div className="flex p-4 items-center gap-7">
+            <h3 className="text-gray-600">IN PROGRESS</h3>
+            <button><img src="Right-button.svg" alt="" /></button>
           </div>
+        </div>
         </div>
     </div>
 
