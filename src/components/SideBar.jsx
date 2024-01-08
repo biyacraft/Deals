@@ -16,7 +16,7 @@ const SideBar = () => {
                 <h1 className="text-secondary font-bold">Customers</h1>
                 <button className="text-gray-600">View All</button>
             </div>
-        <div className="flex-col">
+        <div className="flex-col gap-2">
             <div className="flex items-center gap-4 my-4">
         <div className="">
             <img className="rounded-full w-12 h-12" src="user.png" alt="" />
@@ -61,7 +61,54 @@ const SideBar = () => {
         </div>
             </div>
         </div>
-        <div className="tasksTODo">
+        <div className="tasksTODo flex-col p-6 pt-6 ">
+        <div className="flex justify-between gap-4">
+                <h1 className="text-secondary font-bold">Tasks To do</h1>
+                <button className="text-gray-600">View All</button>
+        </div>
+        <div className="flex-col justify-between items-start py-4">
+            <div className="flex justify-between py-4">
+            <div className="flex gap-4">
+                <p className="text-red-500">30 Nov 2021</p>
+                <img className="w-5 h-5" src="warning.svg" alt="" />
+            </div>
+            <div className="text-secondary">Meeting with Partners</div>
+            </div>
+            <div className="flex justify-between py-4">
+            <div className="flex gap-4">
+                <p className="text-red-500">30 Nov 2021</p>
+                <img className="w-5 h-5" src="warning.svg" alt="" />
+            </div>
+            <div className="text-secondary">Meeting with Partners</div>
+            </div>
+            <div className="flex justify-between py-4">
+            <div className="flex gap-4">
+                <p className="text-gray-600">24 Dec 2021</p>
+                <img className="w-5 h-5" src="warning.svg" alt="" />
+            </div>
+            <div className="text-secondary">Lunch With Steve</div>
+            </div>
+            <div className="flex justify-between py-4">
+            <div className="flex gap-4">
+                <p className="text-gray-600">24 Dec 2021</p>
+                <img className="w-5 h-5" src="warning.svg" alt="" />
+            </div>
+            <div className="text-secondary">Meeting With Partners</div>
+            </div>
+            <div className="flex justify-between py-4">
+            <div className="flex gap-4">
+                <p className="text-gray-600">24 Dec 2021</p>
+                <img className="w-5 h-5" src="warning.svg" alt="" />
+            </div>
+            <div className="text-secondary">Weekly Meeting</div>
+            </div>
+        </div>
+        <div className="flex justify-between">
+            <h1 className="text-gray-600 font-bold">Add New Task</h1>
+            <button>
+                <img src="Right-button.svg" alt="" />
+            </button>
+        </div>
         </div>
         </div>
     </div>
