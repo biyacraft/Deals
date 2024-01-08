@@ -1,7 +1,8 @@
-import Logo from "../../../../sales/src/components/Logo"
+import Logo from "./Logo"
 
 const NavBar = () => {
   return (
+    
     <nav className="flex bg-white justify-between items-center p-3">
         <div className=" ">
            <Logo />
