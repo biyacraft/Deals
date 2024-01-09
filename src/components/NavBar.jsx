@@ -22,10 +22,14 @@ const NavBar = () => {
                 </div>
         </div>
         <div className="flex w-6 h-6">
+            <button>
             <img src="search.svg" alt="" />
+            </button>
         </div>
         <div className="w-10 h-10">
+        <button>
             <img src="user.png" className="rounded-full"  alt="" />
+        </button>
         </div>
         </div>
     </nav>

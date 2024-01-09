@@ -1,12 +1,12 @@
-import Nextapp from "./Nextapp"
+import NextAppointment from "./NextAppointment"
 import RecentDeals from "./RecentDeals"
 
 const DashboardComp = () => {
   return (
     <div className="flex-col ">
       <div>
-       <div className="h-full flex gap-3">
-        <Nextapp />
+       <div className="h-full flex gap-4 mr-4">
+        <NextAppointment />
           <div className="flex-col w-2/3">
             <RecentDeals />
           </div>
@@ -37,7 +37,7 @@ const DashboardComp = () => {
       </div>
       </div>
       <div className="w-2/3">
-        <div className="flex">
+        <div className="flex justify-between">
           <div className="flex items-center p-4 gap-1">
             <div >
               <img className="rounded-full w-12 h-12" src="user.png" alt="" />
