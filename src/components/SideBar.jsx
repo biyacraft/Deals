@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const SideBar = () => {
     
     return (
@@ -10,7 +12,9 @@ const SideBar = () => {
               </div>
               <div className=" hover:bg-primary rounded-full items-center justify-center">
                   <button className="p-2">
+                    <Link to="../Deals">
                       <img src="menu-shop.svg" alt="" />
+                      </Link>
                   </button>
               </div><div className=" hover:bg-primary rounded-full items-center justify-center">
                   <button className="p-2">
