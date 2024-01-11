@@ -1,12 +1,12 @@
-import NavBar from './components/NavBar'
-import DashCards from './components/Dash-Cards'
+import NavBar from './components/NavBar';
+import DashCards from './components/Dash-Cards';
 
-const App = () => {
+const Dashboard = () => {
   return (
     <div>
       <NavBar  />
       <DashCards />
-    </div>
+      </div>
   )
 }
-export default App
+export default Dashboard

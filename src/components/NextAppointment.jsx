@@ -24,7 +24,7 @@ const NextAppointment = () => {
 
 
 
-      <div className="bg-white rounded-full">
+      <div className="bg-white rounded-full absolute">
 
       
       

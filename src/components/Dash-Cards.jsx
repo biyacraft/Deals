@@ -3,7 +3,6 @@ import SideBar from "./SideBar"
 
 const DashCards = () => {
   
-  
     return (
     <div className="flex">
         <SideBar />
