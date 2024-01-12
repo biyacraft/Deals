@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Dashboard from './Dashboard';
 import Deals from './Deals';
+import DealDetails from './DealDetails';
 
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
         <Route path='/' element={<Dashboard />}></Route>
             <Route path='/Dashboard' element={<Dashboard />}></Route>
             <Route path='/Deals' element={<Deals />}></Route>
+            <Route path='/DealDetails' element={<DealDetails />}></Route>
         </Routes>
     </BrowserRouter>
   )
