@@ -6,8 +6,10 @@ const DealDetails = () => {
     <div className='flex-col'>
          <NavBar />
         <div className='flex'>
+            <div className='w-30'>
             <SideBar />
-            <div className='flex w-full'>
+            </div>
+            <div className='flex w-11/12'>
                 <div className='w-2/3 flex-col'>
                     <div className='flex justify-between p-5'>
                     <div className='flex gap-4'>
@@ -66,7 +68,7 @@ const DealDetails = () => {
                         <h2 className='text-secondary font-semibold'>Lorem, ipsum.</h2>
                         </div>
                         </div>
-                        <div className='flex-col my-6 py-2'>
+                        <div className='flex-col my-6 py-1'>
                         <h2 className='text-gray-600'>Special Instruction</h2>
                         <p className='text-gray-800'>At risus viverra adipiscing at in tellus. Blandit massa enim nec dui nunc mattis. Lacus vel facilisis volutpat est velit.</p>
                         </div>
@@ -75,7 +77,7 @@ const DealDetails = () => {
                 </div>
                 <div className='w-1/3 flex-col'>
                     <div className='flex-col'>
-                        <div className='p-6 text-secondary font-bold py-3'>
+                        <div className='p-6 text-secondary font-bold py-2'>
                         <h1>Record Activity</h1>
                         </div>
                         <div>
@@ -102,9 +104,51 @@ const DealDetails = () => {
                             <button className='bg-primary rounded-3xl w-20 h-10 text-white flex justify-center items-center'>Save</button>
                         </div>
                     </div>
-                    <div className='flex-col px-6'>
-                        <div className='text-secondary font-bold'>Activity Log</div>
-                        <div></div>
+                    <div className='flex-col'>
+                        <div className='text-secondary font-bold py-4'>
+                            Activity Log
+                            </div>
+                        
+                        <div className='flex justify-start  gap-4'>
+                            <div className='w-10 h-10 rounded-full bg-primary flex justify-center items-center'>
+                            <div className='w-4 h-4 rounded-full bg-white'></div>
+                            </div>
+                            <div className='flex-col'>
+                                <div className='flex-col'>
+                                <h2 className='text-gray-600'>17 Nov 2021</h2>
+                                <p className='text-secondary font-bold'>Lorem ipsum dolor sit amet consectetur.</p>
+                                </div>
+                                <div className='bg-gray-300 w-full h-40 p-5 my-1'></div>
+                            </div>
+                            </div>
+                            <div className='flex justify-start  py-3'>
+                            <div className='w-10 h-10 rounded-full bg-primary flex justify-center items-center'>
+                            <div className='w-4 h-4 rounded-full bg-white'></div>
+                            </div>
+                            <div className='flex-col'>
+                                <div className='flex-col'>
+                                <h2 className='text-gray-600'>17 Nov 2021</h2>
+                                <p className='text-secondary font-bold'>Lorem ipsum dolor sit amet consectetur.</p>
+                                </div>
+                               
+                            </div>
+                            </div>
+                            <div className='flex justify-start py-4'>
+                            <div className='w-10 h-10 rounded-full bg-primary flex justify-center items-center'>
+                            <div className='w-4 h-4 rounded-full bg-white'></div>
+                            </div>
+                            <div className='flex-col'>
+                                <div className='flex-col'>
+                                <h2 className='text-gray-600'>17 Nov 2021</h2>
+                                <p className='text-secondary font-bold'>Lorem ipsum dolor sit amet consectetur.</p>
+                                </div>
+                               
+                            </div>
+                            </div>
+                            <div className='flex items-center justify-center'>
+                            <button >Load More</button>
+                            </div>
+                            
                     </div>
                 </div>
             </div>

@@ -17,9 +17,11 @@ const SideBar = () => {
                       </Link>
                   </button>
               </div><div className=" hover:bg-primary rounded-full items-center justify-center">
+                  <Link to="../Customer">
                   <button className="p-2">
                       <img src="menu-contacts.svg" alt="" />
                   </button>
+                  </Link>
               </div><div className=" hover:bg-primary rounded-full items-center justify-center">
                   <button className="p-2">
                       <img src="menu-list.svg" alt="" />

@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 import NavBar from "./components/NavBar"
 import SideBar from "./components/SideBar"
 
@@ -11,7 +11,7 @@ const Deals = () => {
      </div>
      <div className="flex">
      <SideBar />
-     <div className="flex-col w-full p-4">
+     <div className="flex-col w-5/6 p-4">
         <div className="flex  justify-between p-8">
             <h1 className="text-secondary font-bold">Total: 136 Deals</h1>
             <div className="flex gap-8">
@@ -40,81 +40,102 @@ const Deals = () => {
                     </div>
             </div>
             <div className="flex py-4 text-primary justify-between items-center">
-                <button className="flex items-center w-2/6">
+                <div className="flex items-center w-2/6">
                 <img className="pr-1" src="random-pic.svg" alt="" />
-                <h2>Location City Eyob Abate</h2>
+                <Link to="/DealDetails" >
+               
+             <h2>Location City Eyob Abate</h2>
+             </Link>
                 
-                </button>
+                </div>
                 <h2 className="pl-5">100M&sup2;</h2>
                 <h2>Nov 15, 2021 08:00 AM</h2>
                 <h2>2.4 Million Birr</h2>
                 <h2 className="text-gray-600">In Progress</h2>
+                <Link to="/EditDeal">
                 <img src="edit-button.svg" alt="" />
+                </Link>
             </div>
 
             <div className="flex py-4 text-primary justify-between items-center">
             <div className="flex items-center w-2/6">
             <img className="pr-1" src="random-pic.svg" alt="" />
+            <Link to="/DealDetails">
              <h2>Location City Eyob Abate</h2>
-             
+             </Link>
              </div>
              <h2 className="pl-5">100M&sup2;</h2>
              <h2>Nov 15, 2021 08:00 AM</h2>
              <h2>2.4 Million Birr</h2>
              <h2 className="text-gray-600">In Progress</h2>
-             <img src="edit-button.svg" alt="" />
+             <Link to="/EditDeal">
+                <img src="edit-button.svg" alt="" />
+                </Link>
             </div>
 
             <div className="flex py-4 text-primary justify-between items-center">
             <div className="flex items-center w-2/6">
             <img className="pr-1" src="random-pic.svg" alt="" />
+            <Link to="/DealDetails">
              <h2>Location City Eyob Abate</h2>
-             
+             </Link>
              </div>
              <h2 className="pl-5">100M&sup2;</h2>
              <h2>Nov 15, 2021 08:00 AM</h2>
              <h2>2.4 Million Birr</h2>
              <h2 className="text-gray-600">In Progress</h2>
-             <img src="edit-button.svg" alt="" />
+             <Link to="/EditDeal">
+                <img src="edit-button.svg" alt="" />
+                </Link>
+            </div>
+
+            <div className="flex py-4 text-primary justify-between items-center">
+            <div className="flex items-center w-2/6">
+            
+            <img className="pr-1" src="random-pic.svg" alt="" />
+            <Link to="/DealDetails">
+             <h2>Location City Eyob Abate</h2>
+             </Link>
+             </div>
+             <h2 className="pl-5">100M&sup2;</h2>
+             <h2>Nov 15, 2021 08:00 AM</h2>
+             <h2>2.4 Million Birr</h2>
+             <h2 className="text-gray-600">In Progress</h2>
+             <Link to="/EditDeal">
+                <img src="edit-button.svg" alt="" />
+                </Link>
             </div>
 
             <div className="flex py-4 text-primary justify-between items-center">
             <div className="flex items-center w-2/6">
             <img className="pr-1" src="random-pic.svg" alt="" />
+            <Link to="/DealDetails">
              <h2>Location City Eyob Abate</h2>
-             
+             </Link>
              </div>
              <h2 className="pl-5">100M&sup2;</h2>
              <h2>Nov 15, 2021 08:00 AM</h2>
              <h2>2.4 Million Birr</h2>
              <h2 className="text-gray-600">In Progress</h2>
-             <img src="edit-button.svg" alt="" />
+             <Link to="/EditDeal">
+                <img src="edit-button.svg" alt="" />
+                </Link>
             </div>
 
             <div className="flex py-4 text-primary justify-between items-center">
             <div className="flex items-center w-2/6">
+            <Link to="/DealDetails">
             <img className="pr-1" src="random-pic.svg" alt="" />
              <h2>Location City Eyob Abate</h2>
-             
+             </Link>
              </div>
              <h2 className="pl-5">100M&sup2;</h2>
              <h2>Nov 15, 2021 08:00 AM</h2>
              <h2>2.4 Million Birr</h2>
              <h2 className="text-gray-600">In Progress</h2>
-             <img src="edit-button.svg" alt="" />
-            </div>
-
-            <div className="flex py-4 text-primary justify-between items-center">
-            <div className="flex items-center w-2/6">
-            <img className="pr-1" src="random-pic.svg" alt="" />
-             <h2>Location City Eyob Abate</h2>
-             
-             </div>
-             <h2 className="pl-5">100M&sup2;</h2>
-             <h2>Nov 15, 2021 08:00 AM</h2>
-             <h2>2.4 Million Birr</h2>
-             <h2 className="text-gray-600">In Progress</h2>
-             <img src="edit-button.svg" alt="" />
+             <Link to="/EditDeal">
+                <img src="edit-button.svg" alt="" />
+                </Link>
             </div>
             <div className="flex text-secondary justify-center p-8">
                 <button>Load More</button>

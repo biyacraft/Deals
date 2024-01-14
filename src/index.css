@@ -5,3 +5,8 @@
   position: relative; 
   z-index: 1;
 }
+.back{
+  background-image: "/public/cover.svg";
+  background:image("/public/cover.svg");
+  background: "cover.svg";
+}
