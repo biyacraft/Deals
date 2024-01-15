@@ -13,19 +13,21 @@ const SideBar = () => {
                   </Link>
               </div>
               <div className=" hover:bg-primary rounded-full items-center justify-center">
-                    <Link to="../Deals">
+                <Link to="../Deals">
                     <button className="p-2">
                       <img src="menu-shop.svg" alt="" />
-                      </button>
-                      </Link>
+                    </button>
+                </Link>
                   
-              </div><div className=" hover:bg-primary rounded-full items-center justify-center">
+              </div>
+              <div className=" hover:bg-primary rounded-full items-center justify-center">
                   <Link to="../Customer">
                   <button className="p-2">
                       <img src="menu-contacts.svg" alt="" />
                   </button>
                   </Link>
-              </div><div className=" hover:bg-primary rounded-full items-center justify-center">
+              </div>
+              <div className=" hover:bg-primary rounded-full items-center justify-center">
                   <Link to="../Tasks">
                   <button className="p-2">
                       <img src="menu-list.svg" alt="" />
@@ -52,5 +54,4 @@ const SideBar = () => {
           </div>
     )
   }
-  
   export default SideBar

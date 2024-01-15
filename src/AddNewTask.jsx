@@ -8,7 +8,6 @@ const AddNewTask = () => {
                 <img src="close.svg" alt="" />
             </div>
             <div className="flex-col">
-                
                 <div className="flex-col">
                     <input className="text-gray-900 p-2 m-6 w-full" type="text" placeholder="Enter Task Description" />
                 </div> 
