@@ -43,20 +43,20 @@ const Tasks = () => {
                 <div className="flex w-full justify-between p-3 px-6">
                    <h2 className="text-secondary font-bold">Total: 23 Tasks</h2>
                    <div className="flex gap-4">
-                    <div className="flex gap-4">
-                    <h2>Sort by</h2>
-                    <button>
-                    <img src="arrow-down.svg" alt="" />
-                    </button>
-                   </div>
-                    <div className="flex gap-4">
-                        <h2>Filter</h2>
-                        <button>
-                        <img src="filter.svg" alt="" />
-                        </button>
+                        <div className="flex gap-4">
+                            <h2>Sort by</h2>
+                            <button>
+                            <img src="arrow-down.svg" alt="" />
+                            </button>
+                        </div>
+                        <div className="flex gap-4">
+                            <h2>Filter</h2>
+                            <button>
+                            <img src="filter.svg" alt="" />
+                            </button>
+                        </div>
                     </div>
-                    </div>
-                    </div>
+                </div>
                 <div className="flex-col">
                     <div className="flex justify-between p-4 px-6">
                         <img src="tick-gray.svg" alt="" />
