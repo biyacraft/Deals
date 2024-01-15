@@ -5,6 +5,9 @@ import DealDetails from './DealDetails';
 import EditDeal from './EditDeal';
 import Customer from './Customer';
 import CustomerDetails from './CustomerDetails';
+import Tasks from './Tasks';
+import AddNewTask from './AddNewTask';
+import Calander from './Calander';
 
 
 const App = () => {
@@ -18,6 +21,9 @@ const App = () => {
             <Route path='/EditDeal' element={<EditDeal />}></Route>
             <Route path='/Customer' element={<Customer />}></Route>
             <Route path='/CustomerDetails' element={<CustomerDetails />}></Route>
+            <Route path='/Tasks' element={<Tasks />}></Route>
+            <Route path='/AddNewTask' element={<AddNewTask />}></Route>
+            <Route path='/Calander' element={<Calander />}></Route>
         </Routes>
     </BrowserRouter>
   )

@@ -11,7 +11,7 @@ const Deals = () => {
      </div>
      <div className="flex">
      <SideBar />
-     <div className="flex-col w-5/6 p-4">
+     <div className="flex-col w-full p-4">
         <div className="flex  justify-between p-8">
             <h1 className="text-secondary font-bold">Total: 136 Deals</h1>
             <div className="flex gap-8">
