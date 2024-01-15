@@ -102,7 +102,6 @@ const Calander = () => {
                     </div>
                     <div></div>
                     <div></div>
-               
             </div>
         </div>
     </div>
