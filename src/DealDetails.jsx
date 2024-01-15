@@ -4,7 +4,7 @@ import SideBar from './components/SideBar'
 const DealDetails = () => {
   return (
     <div className='flex-col'>
-         <NavBar />
+        <NavBar />
         <div className='flex'>
             <div className='w-30'>
             <SideBar />

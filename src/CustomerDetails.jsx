@@ -3,28 +3,27 @@ import Logo from "./components/Logo";
 const CustomerDetails = () => {
   return (
     <div className="flex-col">
-      
-    <nav className="flex bg-white justify-between items-center p-3">
-        <div className=" ">
-          <Logo />
-        </div>
-        <div className="flex w-full h-full p-5">
-            <h1 className="!text-secondary font-bold text-2xl"><strong>Customer Details</strong></h1>
-        </div>
-        <div className="flex items-center justify-between gap-4">
-        
-        <div className="flex w-6 h-6">
-            <button>
-            <img src="search.svg" alt="" />
-            </button>
-        </div>
-        <div className="w-10 h-10">
-        <button>
-            <img src="user.png" className="rounded-full"  alt="" />
-        </button>
-        </div>
-        </div>
-    </nav>
+      <nav className="flex bg-white justify-between items-center p-3">
+          <div className=" ">
+            <Logo />
+          </div>
+          <div className="flex w-full h-full p-5">
+              <h1 className="!text-secondary font-bold text-2xl"><strong>Customer Details</strong></h1>
+          </div>
+          <div className="flex items-center justify-between gap-4">
+          
+          <div className="flex w-6 h-6">
+              <button>
+              <img src="search.svg" alt="" />
+              </button>
+          </div>
+          <div className="w-10 h-10">
+          <button>
+              <img src="user.png" className="rounded-full"  alt="" />
+          </button>
+          </div>
+          </div>
+      </nav>
     <div className="flex">
         <SideBar />
         <div className="flex w-full">
@@ -110,11 +109,12 @@ const CustomerDetails = () => {
                 </div>
               </div>
               <div className="flex text-secondary items-center justify-around">
-                <button className="">Load More</button>
+                <button className="">
+                  Load More
+                </button>
               </div>
             </div>
-            </div>
-          
+          </div>
         </div>
       </div>
     </div>
