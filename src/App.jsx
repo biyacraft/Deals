@@ -8,6 +8,7 @@ import CustomerDetails from './CustomerDetails';
 import Tasks from './Tasks';
 import AddNewTask from './AddNewTask';
 import Calander from './Calander';
+import Profile from './Profile';
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
             <Route path='/Tasks' element={<Tasks />}></Route>
             <Route path='/AddNewTask' element={<AddNewTask />}></Route>
             <Route path='/Calander' element={<Calander />}></Route>
+            <Route path='/Profile' element={<Profile />}></Route>
         </Routes>
     </BrowserRouter>
   )

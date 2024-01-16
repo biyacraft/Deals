@@ -33,14 +33,14 @@ const Calander = () => {
                     <div className="flex justify-between">
                         <div className="flex w-2/3 items-center gap-3">
                             <h1 className="text-secondary text-2xl font-bold">February 2021</h1>
-                            <select name="" id="">
+                            
                             <img src="scroll.svg" alt="" />
-                            </select>
+                            
                         </div>
-                        <div className="flex gap-2 text-white bg-primary rounded-xl justify-center items-center p-3">
+                        <button className="flex gap-2 text-white bg-primary rounded-xl justify-center items-center p-3">
                             <h2>Create</h2>
                             <img src="add.svg" alt="" />
-                        </div>
+                        </button>
                     </div>
                         <div className=" text-secondary pt-6">
                             <table className="w-full">
@@ -102,17 +102,195 @@ const Calander = () => {
                         </div>
                         <div className="flex gap-6">
                             <div className="flex gap-3">
-                                <div className="w-6 h-6 flex bg-green-600 rounded-full p-2"></div>
+                                <div className="w-5 h-5 flex bg-green-600 rounded-full p-2"></div>
                                 <div>Event Dates</div>
                             </div>
                             <div className="flex gap-3">
-                                <div className="w-6 h-6 flex bg-blue-600 rounded-full p-2"></div>
+                                <div className="w-5 h-5 flex bg-blue-600 rounded-full p-2"></div>
                                 <div>Selected Date</div>
                             </div>
                         </div>
                     </div>
-                <div></div>
-                <div></div>
+                <div className="px-3 py-10 flex-col">
+                    <h1 className="text-secondary text-3xl font-bold py-2">Recently Events</h1>
+                    <p className="text-gray-600">Reminders that have been added recently will be added here</p>
+                    <div className="pt-6 flex justify-between">
+                        <p className="text-blue-600 font-semibold">30 minute call with clients</p>
+                        <div className="flex gap-3">
+                            <button><img src="edit-black.svg" alt="" /></button>
+                            <button><img src="more-black.svg" alt="" /></button>
+                        </div>
+                    </div>
+                    <h1 className="text-secondary text-xl font-bold py-2">Project Discovery Call</h1>
+                    <p>Feb 21, 2021 <strong>09:20 am</strong></p>
+                    <div className="flex py-3 justify-between">
+                        <div className="flex">
+                            <img src="user.png" className="rounded-full w-10 h-10" alt="" />
+                            <img src="random-pic.svg" className="rounded-full w-10 h-10" alt="" />
+                            <img src="user.png" className="rounded-full w-10 h-10" alt="" />
+                        </div>
+                        
+                        <button className="flex gap-2 text-white bg-primary rounded-xl justify-center items-center p-3">
+                            <h2>Invite</h2>
+                            <img src="add.svg" alt="" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div className="flex-col pl-11 mt-6 w-1/3">
+                <div className="flex-col">
+                    <div className="flex justify-between">
+                        <div className="flex-col">
+                            <h1 className="text-secondary text-3xl font-bold">Reminders</h1>
+                            <p className="text-gray-600">This is where you will see reminders of selected date.</p>
+                        </div>
+                        <div className="bg-primary w-2 h-4xl mx-2"></div>
+                    </div>
+                    <div className="pt-6 flex justify-between">
+                        <p className="text-blue-600 font-semibold">30 minute call with clients</p>
+                        <div className="flex gap-3">
+                            <button><img src="edit-black.svg" alt="" /></button>
+                            <button><img src="more-black.svg" alt="" /></button>
+                        </div>
+                    </div>
+                    <h1 className="text-secondary text-xl font-bold py-2">Project Discovery Call</h1>
+                    <p>Feb 21, 2021 <strong>09:20 am</strong></p>
+                    <div className="flex py-3 justify-between">
+                        <div className="flex">
+                            <img src="user.png" className="rounded-full w-10 h-10" alt="" />
+                            <img src="random-pic.svg" className="rounded-full w-10 h-10" alt="" />
+                            <img src="user.png" className="rounded-full w-10 h-10" alt="" />
+                        </div>
+                        <button className="flex gap-2 text-white bg-primary rounded-xl justify-center items-center p-3">
+                            <h2>Invite</h2>
+                            <img src="add.svg" alt="" />
+                        </button>
+                    </div>
+                </div>
+                <div className="flex-col">
+                    <div className="pt-6 flex justify-between">
+                        <p className="text-blue-600 font-semibold">30 minute call with clients</p>
+                        <div className="flex gap-3">
+                            <button><img src="edit-black.svg" alt="" /></button>
+                            <button><img src="more-black.svg" alt="" /></button>
+                        </div>
+                    </div>
+                    <h1 className="text-secondary text-xl font-bold py-2">Project Discovery Call</h1>
+                    <p>Feb 21, 2021 <strong>09:20 am</strong></p>
+                    <div className="flex py-3 justify-between">
+                        <div className="flex">
+                            <img src="user.png" className="rounded-full w-10 h-10" alt="" />
+                            <img src="random-pic.svg" className="rounded-full w-10 h-10" alt="" />
+                            <img src="user.png" className="rounded-full w-10 h-10" alt="" />
+                        </div>
+                        <button className="flex gap-2 text-white bg-primary rounded-xl justify-center items-center p-3">
+                            <h2>Invite</h2>
+                            <img src="add.svg" alt="" />
+                        </button>
+                    </div>
+                </div>
+                <div className="flex-col">
+                    <div className="pt-6 flex justify-between">
+                        <p className="text-blue-600 font-semibold">30 minute call with clients</p>
+                        <div className="flex gap-3">
+                            <button><img src="edit-black.svg" alt="" /></button>
+                            <button><img src="more-black.svg" alt="" /></button>
+                        </div>
+                    </div>
+                    <h1 className="text-secondary text-xl font-bold py-2">Project Discovery Call</h1>
+                    <p>Feb 21, 2021 <strong>09:20 am</strong></p>
+                    <div className="flex py-3 justify-between">
+                        <div className="flex">
+                            <img src="user.png" className="rounded-full w-10 h-10" alt="" />
+                            <img src="random-pic.svg" className="rounded-full w-10 h-10" alt="" />
+                            <img src="user.png" className="rounded-full w-10 h-10" alt="" />
+                        </div>
+                        <button className="flex gap-2 text-white bg-primary rounded-xl justify-center items-center p-3">
+                            <h2>Invite</h2>
+                            <img src="add.svg" alt="" />
+                        </button>
+                    </div>
+                </div>
+                <div className="flex-col">
+                    <div className="pt-6 flex justify-between">
+                        <p className="text-blue-600 font-semibold">30 minute call with clients</p>
+                        <div className="flex gap-3">
+                            <button><img src="edit-black.svg" alt="" /></button>
+                            <button><img src="more-black.svg" alt="" /></button>
+                        </div>
+                    </div>
+                    <h1 className="text-secondary text-xl font-bold py-2">Project Discovery Call</h1>
+                    <p>Feb 21, 2021 <strong>09:20 am</strong></p>
+                    <div className="flex py-3 justify-between">
+                        <div className="flex">
+                            <img src="user.png" className="rounded-full w-10 h-10" alt="" />
+                            <img src="random-pic.svg" className="rounded-full w-10 h-10" alt="" />
+                            <img src="user.png" className="rounded-full w-10 h-10" alt="" />
+                        </div>
+                        <button className="flex gap-2 text-white bg-primary rounded-xl justify-center items-center p-3">
+                            <h2>Invite</h2>
+                            <img src="add.svg" alt="" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div className="flex-col ml-12 w-1/4 justify-end">
+                <div className="flex justify-between pb-11">
+                    <h1 className="text-secondary text-3xl font-bold">Upcoming Meeeting</h1>
+                    <button><img src="more-black.svg" alt="" /></button>
+                </div>
+                <div className="flex justify-between">
+                    <h1 className="text-secondary text-2xl font-semibold">Todays Meeeting</h1>
+                    <button><img src="arrow-down.svg" alt="" /></button>
+                </div>
+                <div className="flex-col">
+                    <div className="pt-6 flex justify-between">
+                        <p className="text-blue-600 font-semibold">30 minute call with clients</p>
+                        <div className="flex gap-3">
+                            <button><img src="edit-black.svg" alt="" /></button>
+                            <button><img src="more-black.svg" alt="" /></button>
+                        </div>
+                    </div>
+                    <h1 className="text-secondary text-xl font-bold py-2">Project Discovery Call</h1>
+                    <p>Feb 21, 2021 <strong>09:20 am</strong></p>
+                    <div className="flex py-3 justify-between">
+                        <div className="flex">
+                            <img src="user.png" className="rounded-full w-10 h-10" alt="" />
+                            <img src="random-pic.svg" className="rounded-full w-10 h-10" alt="" />
+                            <img src="user.png" className="rounded-full w-10 h-10" alt="" />
+                        </div>
+                        <button className="flex gap-2 text-white bg-primary rounded-xl justify-center items-center p-3">
+                            <h2>Invite</h2>
+                            <img src="add.svg" alt="" />
+                        </button>
+                    </div>
+                </div>
+                <div className="flex-col">
+                    <div className="pt-6 flex justify-between">
+                        <p className="text-blue-600 font-semibold">30 minute call with clients</p>
+                        <div className="flex gap-3">
+                            <button><img src="edit-black.svg" alt="" /></button>
+                            <button><img src="more-black.svg" alt="" /></button>
+                        </div>
+                    </div>
+                    <h1 className="text-secondary text-xl font-bold py-2">Project Discovery Call</h1>
+                    <p>Feb 21, 2021 <strong>09:20 am</strong></p>
+                    <div className="flex py-3 justify-between">
+                        <div className="flex">
+                            <img src="user.png" className="rounded-full w-10 h-10" alt="" />
+                            <img src="random-pic.svg" className="rounded-full w-10 h-10" alt="" />
+                            <img src="user.png" className="rounded-full w-10 h-10" alt="" />
+                        </div>
+                        <button className="flex gap-2 text-white bg-primary rounded-xl justify-center items-center p-3">
+                            <h2>Invite</h2>
+                            <img src="add.svg" alt="" />
+                        </button>
+                    </div>
+                </div>
+                <div className="flex justify-between py-8">
+                    <h1 className="text-secondary text-2xl font-semibold">Schedule Meeeting</h1>
+                    <button><img src="arrow-up.svg" alt="" /></button>
+                </div>
             </div>
         </div>
     </div>

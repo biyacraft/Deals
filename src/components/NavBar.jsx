@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Logo from "./Logo"
 
 const NavBar = () => {
@@ -8,7 +9,7 @@ const NavBar = () => {
            <Logo />
         </div>
         <div className="flex w-full h-full p-5">
-            <h1 className="!text-secondary font-bold"><strong>Dashboard</strong></h1>
+            <h1 className="text-secondary text-3xl font-bold"><strong>Dashboard</strong></h1>
         </div>
         <div className="flex items-center justify-between gap-4">
             <div className="flex bg-primary text-white rounded-xl items-center justify-around w-40 h-auto p-1 m-1">
@@ -27,9 +28,11 @@ const NavBar = () => {
                 </button>
             </div>
             <div className="w-10 h-10">
+                <Link to="../Profile">
                 <button>
                     <img src="user.png" className="rounded-full"  alt="" />
                 </button>
+                </Link>
             </div>
         </div>
     </nav>
