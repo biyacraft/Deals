@@ -10,29 +10,27 @@ const Customer = () => {
            <Logo />
         </div>
         <div className="flex w-full h-full p-5">
-            <h1 className="!text-secondary font-bold"><strong>Dashboard</strong></h1>
+            <h1 className="text-secondary text-3xl font-bold"><strong>Customers</strong></h1>
         </div>
-        <div className="flex items-center justify-between gap-4">
-        <div className="flex bg-primary text-white rounded-xl items-center justify-around w-40 h-auto p-1 m-1">
-            <div>
-            <button className="flex items-center h-10 w-full">
+        <div className="flex items-center justify-between gap-4 w-1/4">
+        <div className="flex bg-primary text-white rounded-xl items-center justify-around p-1 m-1">
+            <button className="flex items-center w-full">
                 Add New Customer
-                <div className="p-3">
+            </button>
+            <div className="p-3">
                 <img className="w-3" src="add.svg" alt="" />
-                </div>
-                </button>
             </div>
         </div>
         <div className="flex w-6 h-6">
             <button>
-            <img src="search.svg" alt="" />
+                <img src="search.svg" alt="" />
             </button>
         </div>
+        <Link to="/Profile">
         <div className="w-10 h-10">
-        <button>
             <img src="user.png" className="rounded-full"  alt="" />
-        </button>
         </div>
+        </Link>
         </div>
     </nav>
         <div className="flex">

@@ -10,7 +10,7 @@ const Tasks = () => {
                 <Logo />
             </div>
             <div className="flex w-full h-full p-5">
-                <h1 className="!text-secondary font-bold"><strong>Dashboard</strong></h1>
+                <h1 className="text-secondary text-3xl font-bold"><strong>Tasks</strong></h1>
             </div>
             <div className="flex items-center justify-between gap-4">
                 <div className="flex bg-primary text-white rounded-xl items-center justify-around w-40 h-auto p-1 m-1">
@@ -30,11 +30,11 @@ const Tasks = () => {
                         <img src="search.svg" alt="" />
                     </button>
                 </div>
+                <Link to="/Profile">
                 <div className="w-10 h-10">
-                    <button>
-                        <img src="user.png" className="rounded-full"  alt="" />
-                    </button>
+                    <img src="user.png" className="rounded-full"  alt="" />
                 </div>
+                </Link>
             </div>
         </nav>
         <div className="flex">

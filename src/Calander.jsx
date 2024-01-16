@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Logo from "./components/Logo"
 import SideBar from "./components/SideBar"
 
@@ -18,11 +19,11 @@ const Calander = () => {
                         <img src="search.svg" alt="" />
                     </button>
                 </div>
-                <div className="w-10 h-10">
-                    <button>
+                <Link to="/Profile">
+                    <div className="w-10 h-10">
                         <img src="user.png" className="rounded-full"  alt="" />
-                    </button>
-                </div>
+                    </div>
+                </Link>
             </div>
         </nav>
         <div className="flex">
