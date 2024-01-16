@@ -2,16 +2,16 @@ import NextAppointment from "./NextAppointment"
 import RecentDeals from "./RecentDeals"
 
 const DashboardComp = () => {
+
   return (
-    <div className="flex-col ">
-      <div>
+    <div className="flex-col">
        <div className="h-full flex gap-4 mr-4">
         <NextAppointment />
           <div className="flex-col w-2/3">
             <RecentDeals />
           </div>
        </div>
-      </div>
+
     <div className="flex justify-between">
       <div className="flex-col w-1/2">
       
@@ -23,9 +23,9 @@ const DashboardComp = () => {
           <div className="p-1 pt-3 items-center">
             <img className="w-40 h-40 pt-3 mt-3" src="customers.svg" alt="" />
           </div>
-      </div>
+        </div>
 
-      < div className="flex justify-between items-center pr-8">
+        < div className="flex justify-between items-center pr-8">
         
           <div className="text-gray-600 text-bold">
             <p className="p-1 my-3">Deals</p>
@@ -34,7 +34,7 @@ const DashboardComp = () => {
           <div className="p-1 pt-3 items-center">
             <img className="w-40 h-40 pt-3 mt-3" src="customers-shop.svg" alt="" />
           </div>
-      </div>
+        </div>
       </div>
       <div className="w-2/3">
         <div className="flex justify-between">

@@ -4,7 +4,7 @@ import SideBar from "./SideBar"
 const DashCards = () => {
   
     return (
-    <div className="flex">
+    <div className="flex sm:flex-row">
         <SideBar />
         <div className="w-2/3">
         <DashboardComp />

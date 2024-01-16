@@ -1,13 +1,13 @@
 
 const NextAppointment = () => {
   return (
-    <div className="flex flex-col w-1/3 h-full p-5 m-1 bg-primary rounded-xl">
+    <div className="flex-col w-1/3 p-5 m-1 bg-primary rounded-xl">
     <div className="flex items-center justify-between gap-3">
       <div>
         <h1 className="text-white font-semibold">Next Appointment</h1>
       </div>
       <div className="bg-white rounded-full w-3 h-3"></div>
-      </div>
+    </div>
     <div>
       <div className="flex items-center">
         <div className="bg-white rounded-full w-12 h-12"></div>

@@ -20,14 +20,14 @@ const Deals = () =>
                         <button className="flex items-center justify-around h-10 w-15">
                             Add New
                             <div className="p-3">
-                            <img className="w-3" src="add.svg" alt="" />
+                                <img className="w-3" src="add.svg" alt="" />
                             </div>
                         </button>
                     </Link>
                 </div>
                 <div className="flex w-6 h-6">
                     <button>
-                    <img src="search.svg" alt="" />
+                        <img src="search.svg" alt="" />
                     </button>
                 </div>
                 <div className="w-10 h-10">
@@ -45,14 +45,14 @@ const Deals = () =>
                 <div className="flex  justify-between p-8">
                     <h1 className="text-secondary font-bold">Total: 136 Deals</h1>
                     <div className="flex gap-8">
-                    <div className="flex gap-2">
-                    <h2>Sort by:  Date created</h2>
-                    <img src="arrow-down.svg" alt="" />
-                    </div>
-                    <div className="flex gap-2">
-                        <h2>Filter</h2>
-                        <img src="filter.svg" alt="" />
-                    </div>
+                        <div className="flex gap-2">
+                            <h2>Sort by:  Date created</h2>
+                            <img src="arrow-down.svg" alt="" />
+                        </div>
+                        <div className="flex gap-2">
+                            <h2>Filter</h2>
+                            <img src="filter.svg" alt="" />
+                        </div>
                     </div>
                 </div>
                 <div className="flex-col px-8">
@@ -115,7 +115,6 @@ const Deals = () =>
                             <img src="edit-button.svg" alt="" />
                         </Link>
                     </div>
-
                     <div className="flex py-4 text-primary justify-between items-center">
                         <div className="flex items-center w-2/6">
                             <img className="pr-1" src="random-pic.svg" alt="" />

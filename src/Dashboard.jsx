@@ -6,7 +6,7 @@ const Dashboard = () => {
     <div>
       <NavBar  />
       <DashCards />
-      </div>
+    </div>
   )
 }
 export default Dashboard
