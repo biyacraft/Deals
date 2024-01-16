@@ -12,8 +12,8 @@ const AddNewTask = () => {
                     <input className="text-gray-900 p-2 m-6 w-full" type="text" placeholder="Enter Task Description" />
                 </div> 
                 <div className="flex-col justify-between items-center">
-                <h2 className="text-secondary font-bold">Due Date</h2>
-                <input className="text-gray-900 p-2 m-6 w-full" type="text" placeholder="Due Date" />
+                    <h2 className="text-secondary font-bold">Due Date</h2>
+                    <input className="text-gray-900 p-2 m-6 w-full" type="text" placeholder="Due Date" />
                 </div>
             </div>
             <div className="flex justify-between gap-6">

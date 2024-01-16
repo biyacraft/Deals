@@ -5,8 +5,8 @@ const DashboardComp = () => {
 
   return (
     <div className="flex-col">
-       <div className="h-full flex gap-4 mr-4">
-        <NextAppointment />
+        <div className="flex gap-4 mr-4">
+          <NextAppointment />
           <div className="flex-col w-2/3">
             <RecentDeals />
           </div>
@@ -79,9 +79,9 @@ const DashboardComp = () => {
             <button className="items-center w-full justify-center">Load More</button>
           </div>
         </div>
-        </div>
+      </div>
     </div>
-    </div>
+  </div>
   )
 }
 

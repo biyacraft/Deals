@@ -26,7 +26,7 @@ const AdminDashboard = () => {
         <div className="flex">
             <SideBar />
             <div>
-                <h1>Hi Brex</h1>
+                <h1 className=""><strong className="text-secondary">Hey Brex</strong> Lorem ipsum</h1>
             </div>
         </div>
     </div>
