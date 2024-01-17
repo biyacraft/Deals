@@ -10,6 +10,7 @@ import AddNewTask from './AddNewTask';
 import Calander from './Calander';
 import Profile from './Profile';
 import AdminDashboard from './AdminDashboard';
+import EmployeeDetail from './EmployeeDetail';
 
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
             <Route path='/Calander' element={<Calander />}></Route>
             <Route path='/Profile' element={<Profile />}></Route>
             <Route path='/AdminDashboard' element={<AdminDashboard />}></Route>
+            <Route path='/EmployeeDetail' element={<EmployeeDetail />}></Route>
         </Routes>
     </BrowserRouter>
   )

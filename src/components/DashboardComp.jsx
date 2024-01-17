@@ -10,11 +10,10 @@ const DashboardComp = () => {
           <div className="flex-col w-2/3">
             <RecentDeals />
           </div>
-       </div>
+        </div>
 
     <div className="flex justify-between">
-      <div className="flex-col w-1/2">
-      
+      <div className="w-1/2">
         <div className="flex justify-between items-center pr-8">
           <div className="text-gray-600 text-bold">
             <p className="p-1 my-3">Customers</p>
@@ -25,8 +24,7 @@ const DashboardComp = () => {
           </div>
         </div>
 
-        < div className="flex justify-between items-center pr-8">
-        
+        <div className="flex justify-between items-center pr-8">
           <div className="text-gray-600 text-bold">
             <p className="p-1 my-3">Deals</p>
             <h1 className="p-1 my-3 text-6xl font-bold text-secondary">136</h1>
@@ -39,9 +37,7 @@ const DashboardComp = () => {
       <div className="w-2/3">
         <div className="flex justify-between">
           <div className="flex items-center p-4 gap-1">
-            <div >
-              <img className="rounded-full w-12 h-12" src="user.png" alt="" />
-            </div>
+            <img className="rounded-full w-12 h-12" src="user.png" alt="" />
             <div className="flex-col">
               <h2 className="text-secondary font-bold">Lorem, ipsum.</h2>
               <p className="text-gray-600">Claveland OH  1234</p>

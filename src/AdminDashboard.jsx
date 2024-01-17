@@ -3,7 +3,7 @@ import SideBar from "./components/SideBar";
 
 const AdminDashboard = () => {
   return (
-    <div className="flex-col">
+    <div>
         <nav className="flex bg-white justify-between items-center p-3">
             <div className="flex w-full h-full p-5">
                 <h1 className="text-secondary text-2xl font-semibold"><strong>Admin Dashboard</strong></h1>
@@ -25,7 +25,7 @@ const AdminDashboard = () => {
         </nav>
         <div className="flex">
             <SideBar />
-            <div className="flex-col w-full">
+            <div className="w-full">
                 <h1 className=""><strong className="text-secondary">Hey Brex</strong> Lorem ipsum</h1>
                 <div className="flex gap-4 p-4">
                     <div className="flex-col w-1/4 p-4 bg-gray-300 rounded-2xl">
@@ -73,7 +73,7 @@ const AdminDashboard = () => {
                     <div className="flex-col w-2/3">
                         <div className="flex justify-between items-center">
                             <h1 className="font-semibold text-xl">Sales Report</h1>
-                            <div className=" flex gap-2">
+                            <div className=" flex gap-4">
                                 <h2 className="font-semibold">12 Months</h2>
                                 <h2>6 Months</h2>
                                 <h2>30 Days</h2>
@@ -104,36 +104,45 @@ const AdminDashboard = () => {
                             <p className="text-gray-600">Lorem ipsum dolor sit amet.</p>
                         </div>
                         <div className="pb-8 flex justify-between">
+                           
                             <h2 className="font-semibold">Eyob Abata</h2>
                             <h2 className="font-semibold">eyobabata@gmail.com</h2>
+                            <Link to="/EmployeeDetail">
                             <div className="flex gap-2 items-center">
                                 <div className="bg-green-600 w-3 h-3 rounded-full"></div>
                                 <h2>Veiw Details</h2>
                             </div>
+                            </Link>
                         </div>
                         <div className="pb-8 flex justify-between">
                             <h2 className="font-semibold">Eyob Abata</h2>
                             <h2 className="font-semibold">eyobabata@gmail.com</h2>
+                            <Link to="/EmployeeDetail">
                             <div className="flex gap-2 items-center">
                                 <div className="bg-green-600 w-3 h-3 rounded-full"></div>
                                 <h2>Veiw Details</h2>
                             </div>
+                            </Link>
                         </div>
                         <div className="pb-8 flex justify-between">
                             <h2 className="font-semibold">Eyob Abata</h2>
                             <h2 className="font-semibold">eyobabata@gmail.com</h2>
+                            <Link to="/EmployeeDetail">
                             <div className="flex gap-2 items-center">
                                 <div className="bg-green-600 w-3 h-3 rounded-full"></div>
                                 <h2>Veiw Details</h2>
                             </div>
+                            </Link>
                         </div>
                         <div className="pb-8 flex justify-between">
                             <h2 className="font-semibold">Eyob Abata</h2>
                             <h2 className="font-semibold">eyobabata@gmail.com</h2>
+                            <Link to="/EmployeeDetail">
                             <div className="flex gap-2 items-center">
                                 <div className="bg-green-600 w-3 h-3 rounded-full"></div>
                                 <h2>Veiw Details</h2>
                             </div>
+                            </Link>
                         </div>
                     </div>
                     <div className="px-8">
