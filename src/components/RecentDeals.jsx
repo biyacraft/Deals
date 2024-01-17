@@ -1,7 +1,7 @@
 
 const RecentDeals = () => {
   return (
-    <div className="p-4 bg-gray-300 rounded-2xl">
+    <div className="p-4 bg-gray-100 rounded-2xl">
         <div className="flex items-start justify-between p-1">
             <h1 className="text-secondary font-bold">Recent Deals</h1>
             <button className="text-gray-600">Veiw All</button>
