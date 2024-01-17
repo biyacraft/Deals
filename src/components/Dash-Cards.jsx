@@ -9,7 +9,7 @@ const DashCards = () => {
         <div className="w-2/3">
             <DashboardComp />
         </div>
-        <div className="w-1/3 p-4 bg-gray-300 rounded-xl">
+        <div className="w-1/3 p-4 bg-gray-100 rounded-xl">
             <div className="flex justify-between">
                 <h1 className="text-secondary font-bold">Customers</h1>
                 <button className="text-gray-600">View All</button>
