@@ -1,9 +1,10 @@
-import DashboardComp from "./DashboardComp"
-import SideBar from "./SideBar"
+import DashboardComp from "./DashboardComp";
+import SideBar from "./SideBar";
+
 
 const DashCards = () => {
-  
-    return (
+    
+  return (
     <div className="flex sm:flex-row">
         <SideBar />
         <div className="w-2/3">
