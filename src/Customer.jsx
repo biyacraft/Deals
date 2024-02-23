@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom"
 import Logo from "./components/Logo"
 import SideBar from "./components/SideBar"
-
 const Customer = () => {
   return (
     <div className="flex-col">
@@ -31,8 +30,7 @@ const Customer = () => {
             <img src="user.png" className="rounded-full"  alt="" />
         </div>
         </Link>
-        </div>
-    </nav>
+        </div></nav>
         <div className="flex">
             <SideBar />
     <div className="flex-col w-full p-4">
@@ -90,52 +88,6 @@ const Customer = () => {
                     <img src="edit-button.svg" alt="" />
                     </div>
             </div>
-
-            <div className="flex w-full items-center  text-gray-600 p-2 my-4">
-                <div className="flex gap-3 w-1/4 items-center">
-                <Link to="/CustomerDetails">
-                    <img src="random-pic.svg" alt="" />
-                    </Link>
-                <h2>Eyob Abata</h2>
-                </div>
-                <div className="flex justify-between w-3/4">
-                    <h2 className="pl-7">eyobabata@gmail.com</h2>
-                    <h2>0912131415</h2>
-                    <h2>Address</h2>
-                    <img src="edit-button.svg" alt="" />
-                    </div>
-            </div>
-
-            <div className="flex w-full items-center  text-gray-600 p-2 my-4">
-                <div className="flex gap-3 w-1/4 items-center">
-                <Link to="/CustomerDetails">
-                    <img src="random-pic.svg" alt="" />
-                    </Link>
-                <h2>Eyob Abata</h2>
-                </div>
-                <div className="flex justify-between w-3/4">
-                    <h2 className="pl-7">eyobabata@gmail.com</h2>
-                    <h2>0912131415</h2>
-                    <h2>Address</h2>
-                    <img src="edit-button.svg" alt="" />
-                    </div>
-            </div>
-
-            <div className="flex w-full items-center  text-gray-600 p-2 my-4">
-                <div className="flex gap-3 w-1/4 items-center">
-                <Link to="/CustomerDetails">
-                    <img src="random-pic.svg" alt="" />
-                    </Link>
-                <h2>Eyob Abata</h2>
-                </div>
-                <div className="flex justify-between w-3/4">
-                    <h2 className="pl-7">eyobabata@gmail.com</h2>
-                    <h2>0912131415</h2>
-                    <h2>Address</h2>
-                    <img src="edit-button.svg" alt="" />
-                    </div>
-            </div>
-
             <div className="flex w-full items-center  text-gray-600 p-2 my-4">
                 <div className="flex gap-3 w-1/4 items-center">
                 <Link to="/CustomerDetails">
@@ -177,6 +129,20 @@ const Customer = () => {
                     <h2>Address</h2>
                     <img src="edit-button.svg" alt="" />
                     </div>
+            </div> 
+          <div className="flex w-full items-center  text-gray-600 p-2 my-4">
+                <div className="flex gap-3 w-1/4 items-center">
+                <Link to="/CustomerDetails">
+                    <img src="random-pic.svg" alt="" />
+                    </Link>
+                <h2>Eyob Abata</h2>
+                </div>
+                <div className="flex justify-between w-3/4">
+                    <h2 className="pl-7">eyobabata@gmail.com</h2>
+                    <h2>0912131415</h2>
+                    <h2>Address</h2>
+                    <img src="edit-button.svg" alt="" />
+                    </div>
             </div>
             <div className="flex w-full items-center  text-gray-600 p-2 my-4">
                 <div className="flex gap-3 w-1/4 items-center">
@@ -192,7 +158,34 @@ const Customer = () => {
                     <img src="edit-button.svg" alt="" />
                     </div>
             </div>
-            
+            <div className="flex w-full items-center  text-gray-600 p-2 my-4">
+                <div className="flex gap-3 w-1/4 items-center">
+                <Link to="/CustomerDetails">
+                    <img src="random-pic.svg" alt="" />
+                    </Link>
+                <h2>Eyob Abata</h2>
+                </div>
+                <div className="flex justify-between w-3/4">
+                    <h2 className="pl-7">eyobabata@gmail.com</h2>
+                    <h2>0912131415</h2>
+                    <h2>Address</h2>
+                    <img src="edit-button.svg" alt="" />
+                    </div>
+            </div>
+            <div className="flex w-full items-center  text-gray-600 p-2 my-4">
+                <div className="flex gap-3 w-1/4 items-center">
+                <Link to="/CustomerDetails">
+                    <img src="random-pic.svg" alt="" />
+                    </Link>
+                <h2>Eyob Abata</h2>
+                </div>
+                <div className="flex justify-between w-3/4">
+                    <h2 className="pl-7">eyobabata@gmail.com</h2>
+                    <h2>0912131415</h2>
+                    <h2>Address</h2>
+                    <img src="edit-button.svg" alt="" />
+                    </div>
+            </div>       
             <div className="flex text-secondary justify-center p-8 my-4">
                 <button>Load More</button>
             </div>
