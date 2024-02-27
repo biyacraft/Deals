@@ -32,7 +32,7 @@ const DealDetails = () => {
             <SideBar />
             </div>
             <div className='flex w-11/12'>
-                <div className='w-2/3 flex-col'>
+                <div className='w-2/3'>
                     <div className='flex justify-between p-5'>
                     <div className='flex gap-4'>
                     <img src="user.png" className='rounded-full w-11 h-11' alt="" />
@@ -41,7 +41,7 @@ const DealDetails = () => {
                     <h2 className='text-secondary font-semibold'>Eyob Abata</h2>
                     </div>
                     </div>
-                    <div className='flex-col'>
+                    <div className=''>
                         <h2 className='text-gray-600'>Email</h2>
                         <h2 className='text-secondary font-semibold'>eyobabata@gmail.com</h2>
                         </div>
@@ -61,40 +61,39 @@ const DealDetails = () => {
                     </div>
                     <div className='flex-col p-5 w-2/3'>
                         <div className='flex justify-between my-6 py-2'>
-                        <div className='flex-col'>
-                        <h2 className='text-gray-600'>Progress</h2>
-                        <h2 className='text-secondary font-semibold'>In Progress</h2>
-                        </div>
-                        <div className='flex-col'>
-                        <h2 className='text-gray-600'>Appointment Date</h2>
-                        <h2 className='text-secondary font-semibold'>Nov 17, 2021 08:00</h2>
-                        </div>
-                        </div>
-                        <div className='flex justify-between my-6 py-2'>
-                        <div className='flex-col'>
-                        <h2 className='text-gray-600'>Room Area</h2>
-                        <h2 className='text-secondary font-semibold'>250M&sup2;</h2>
-                        </div>
-                        <div className='flex-col'>
-                        <h2 className='text-gray-600'>Number of Rooms</h2>
-                        <h2 className='text-secondary font-semibold'>3</h2>
-                        </div>
+                            <div className='flex-col'>
+                                <h2 className='text-gray-600'>Progress</h2>
+                                <h2 className='text-secondary font-semibold'>In Progress</h2>
+                            </div>
+                            <div className='flex-col'>
+                                <h2 className='text-gray-600'>Appointment Date</h2>
+                                <h2 className='text-secondary font-semibold'>Nov 17, 2021 08:00</h2>
+                            </div>
                         </div>
                         <div className='flex justify-between my-6 py-2'>
-                        <div className='flex-col'>
-                        <h2 className='text-gray-600'>Price</h2>
-                        <h2 className='text-secondary font-semibold'>3,000,000ETB</h2>
+                            <div className='flex-col'>
+                                <h2 className='text-gray-600'>Room Area</h2>
+                                <h2 className='text-secondary font-semibold'>250M&sup2;</h2>
+                            </div>
+                            <div className='flex-col'>
+                                <h2 className='text-gray-600'>Number of Rooms</h2>
+                                <h2 className='text-secondary font-semibold'>3</h2>
+                            </div>
                         </div>
-                        <div className='flex-col'>
-                        <h2 className='text-gray-600'>Room Access</h2>
-                        <h2 className='text-secondary font-semibold'>Lorem, ipsum.</h2>
-                        </div>
+                        <div className='flex justify-between my-6 py-2'>
+                            <div className='flex-col'>
+                                <h2 className='text-gray-600'>Price</h2>
+                                <h2 className='text-secondary font-semibold'>3,000,000ETB</h2>
+                            </div>
+                            <div className='flex-col'>
+                                <h2 className='text-gray-600'>Room Access</h2>
+                                <h2 className='text-secondary font-semibold'>Lorem, ipsum.</h2>
+                            </div>
                         </div>
                         <div className='flex-col my-6 py-1'>
-                        <h2 className='text-gray-600'>Special Instruction</h2>
-                        <p className='text-gray-800'>At risus viverra adipiscing at in tellus. Blandit massa enim nec dui nunc mattis. Lacus vel facilisis volutpat est velit.</p>
-                        </div>
-                        
+                            <h2 className='text-gray-600'>Special Instruction</h2>
+                            <p className='text-gray-800'>At risus viverra adipiscing at in tellus. Blandit massa enim nec dui nunc mattis. Lacus vel facilisis volutpat est velit.</p>
+                        </div> 
                     </div>
                 </div>
                 <div className='w-1/3 flex-col'>
@@ -127,10 +126,7 @@ const DealDetails = () => {
                         </div>
                     </div>
                     <div className='flex-col'>
-                        <div className='text-secondary font-bold py-4'>
-                            Activity Log
-                            </div>
-                        
+                        <div className='text-secondary font-bold py-4'>Activity Log</div>
                         <div className='flex justify-start  gap-4'>
                             <div className='w-10 h-10 rounded-full bg-primary flex justify-center items-center'>
                             <div className='w-4 h-4 rounded-full bg-white'></div>
@@ -170,7 +166,6 @@ const DealDetails = () => {
                             <div className='flex items-center justify-center'>
                             <button >Load More</button>
                             </div>
-                            
                     </div>
                 </div>
             </div>

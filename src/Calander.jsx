@@ -48,7 +48,7 @@ const Calander = () => {
                                 <tr className="text-secondary font-bold flex justify-between p-3 items-start">
                                     <td>Mon</td>
                                     <td>Tue</td>
-                                    <td>Wed</td>
+                                    67m78<td>Wed</td>
                                     <td>Thu</td>
                                     <td>Fri</td>
                                     <td>Sat</td>

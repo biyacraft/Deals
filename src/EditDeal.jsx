@@ -9,7 +9,7 @@ const EditDeal = () => {
             </div>
             <div className="flex-col">
                 <div className="flex-col">
-                    <h2 className="text-secondary font-bold p-2 my-2">Room Images</h2>
+                    <h2 classNamen="text-secondary font-bold p-2 my-2">Room Images</h2>
                     <h2 className="text-gray-600 p-2 my-2 pl-4">ADD</h2>
                 </div>
                 <div className="flex-col">
