@@ -8,6 +8,7 @@ const SideBar = () => {
     const isDealsPage = location.pathname === "/Deals";
     const isCustomerPage = location.pathname === "/Customer";
     const isTasksPage = location.pathname === "/Tasks";
+    const isCalanderPage = location.pathname === "/Calander";
     return (
         <div className="flex flex-col h-full p-2 gap-5 m-2">
             <div className={isDashboardPage ? "bg-primary  rounded-full items-center justify-center" : "hover:bg-primary  rounded-full items-center justify-center"}>
