@@ -1,5 +1,6 @@
 
 const RecentDeals = () => {
+<<<<<<< HEAD
     return (
         <div className="p-4 bg-gray-100 rounded-2xl">
             <div className="flex items-start justify-between p-1">
@@ -20,6 +21,17 @@ const RecentDeals = () => {
                     </div>
                 </div>
                 <div className="flex items-center gap-4 my-4">
+=======
+  return (
+    <div className="p-4 bg-gray-100 rounded-2xl">
+        <div className="flex items-start justify-between p-1">
+            <h1 className="text-secondary font-bold">Recent Deals</h1>
+            <button className="text-gray-600">Veiw All</button>
+        </div>
+        <div>
+            <div className="flex items-center gap-4 my-4">
+                <div className="">
+>>>>>>> 97dd3269b0308461fdc550e3c1feb9a42143a451
                     <img className="rounded-full w-12 h-12" src="user.png" alt="" />
                     <div className="w-full">
                         <h2 className="text-secondary font-bold">Lorem, ipsum.</h2>

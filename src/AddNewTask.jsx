@@ -22,21 +22,11 @@ const AddNewTask = () => {
             </div>
         </div>
     </div>
-    <div className="bg-black h-10 w-full">
-
-    </div>
-    <div className="bg-black h-10 w-full">
-
-    </div>
-    <div className="bg-black h-10 w-full">
-
-    </div>
-    <div className="bg-black h-10 w-full">
-
-    </div>
-    <div className="bg-black h-10 w-full">
-
-    </div>
+    <div className="bg-black h-10 w-full"></div>
+    <div className="bg-black h-10 w-full"></div>
+    <div className="bg-black h-10 w-full"></div>
+    <div className="bg-black h-10 w-full"></div>
+    <div className="bg-black h-10 w-full"></div>
     </div>
   )
 }

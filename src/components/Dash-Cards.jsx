@@ -1,13 +1,28 @@
-import DashboardComp from "./DashboardComp"
-import SideBar from "./SideBar"
+import DashboardComp from "./DashboardComp";
+import SideBar from "./SideBar";
+
 
 const DashCards = () => {
+<<<<<<< HEAD
 
     return (
         <div className="flex sm:flex-row">
             <SideBar />
             <div className="w-2/3">
                 <DashboardComp />
+=======
+    
+  return (
+    <div className="flex sm:flex-row">
+        <SideBar />
+        <div className="w-2/3">
+            <DashboardComp />
+        </div> 
+        <div className="w-1/3 p-4 bg-gray-100 rounded-xl">
+            <div className="flex justify-between">
+                <h1 className="text-secondary font-bold">Customers</h1>
+                <button className="text-gray-600">View All</button>
+>>>>>>> 97dd3269b0308461fdc550e3c1feb9a42143a451
             </div>
             <div className="w-1/3 p-4 bg-gray-100 rounded-xl">
                 <div className="flex justify-between">
