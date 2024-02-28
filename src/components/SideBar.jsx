@@ -40,7 +40,7 @@ const SideBar = () => {
                 </Link>
             </div>
             <Link to="/Calander">
-                <div className="btn hover:bg-primary rounded-full items-center justify-center">
+                <div className={isCalanderPage ? "bg-primary rounded-full items-center justify-center" : "hover:bg-primary rounded-full items-center justify-center"}>
                     <button className="p-2">
                         <img src="menu-calander.svg" alt="" />
                     </button>
