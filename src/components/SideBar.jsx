@@ -9,6 +9,7 @@ const SideBar = () => {
     const isCustomerPage = location.pathname === "/Customer";
     const isTasksPage = location.pathname === "/Tasks";
     const isCalanderPage = location.pathname === "/Calander";
+    const isNotificationPage = location.pathname === "/notification";
     return (
         <div className="flex flex-col h-full p-2 gap-5 m-2">
             <div className={isDashboardPage ? "bg-primary  rounded-full items-center justify-center" : "hover:bg-primary  rounded-full items-center justify-center"}>
@@ -46,11 +47,13 @@ const SideBar = () => {
                     </button>
                 </div>
             </Link>
-            <div className="btn hover:bg-primary rounded-full items-center justify-center">
+            <Link to="/notification">
+            <div className={isNotificationPage ? "bg-primary rounded-full items-center justify-center" : "hover:bg-primary rounded-full items-center justify-center"}>
                 <button className="p-2">
                     <img src="menu-notification.svg" alt="" />
                 </button>
             </div>
+            </Link>
             <Link to="/AdminDashboard">
                 <div className="btn hover:bg-primary rounded-full items-center justify-center">
                     <button className="p-2">
