@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 
 const SideBar = () => {
-
     const location = useLocation();
     const isDashboardPage = location.pathname === "/Dashboard";
     const isDealsPage = location.pathname === "/Deals";
