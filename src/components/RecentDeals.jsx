@@ -1,4 +1,3 @@
-
 const RecentDeals = () => {
     return (
     <div className="p-4 bg-gray-100 rounded-2xl">
@@ -39,8 +38,7 @@ const RecentDeals = () => {
                     </div>
                 </div>
             </div>
-            </div></div>
+            
     )
 }
-
 export default RecentDeals
