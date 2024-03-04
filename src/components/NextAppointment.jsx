@@ -1,4 +1,5 @@
 const NextAppointment = () => {
+ 
   return (
     <div className="w-1/3 p-5 m-1 bg-primary rounded-xl">
       <div className="flex items-center justify-between gap-3">
