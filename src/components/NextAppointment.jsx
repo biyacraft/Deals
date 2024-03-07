@@ -1,5 +1,5 @@
-
 const NextAppointment = () => {
+ 
   return (
     <div className="w-1/3 p-5 m-1 bg-primary rounded-xl">
       <div className="flex items-center justify-between gap-3">
@@ -20,9 +20,6 @@ const NextAppointment = () => {
             <h2 className="text-semibold">Nov 18 2022, 07:00</h2>
           </div>
           <div className="bg-white rounded-full absolute">
-
-
-            
           </div>
           <div className="flex justify-end">
             <div className="flex bg-white rounded-3xl w-28 h-10 justify-center ">
