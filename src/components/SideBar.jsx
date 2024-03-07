@@ -47,11 +47,11 @@ const SideBar = () => {
                 </div>
             </Link>
             <Link to="/notification">
-            <div className={isNotificationPage ? "bg-primary rounded-full items-center justify-center" : "hover:bg-primary rounded-full items-center justify-center"}>
-                <button className="p-2">
-                    <img src="menu-notification.svg" alt="" />
-                </button>
-            </div>
+                <div className={isNotificationPage ? "bg-primary rounded-full items-center justify-center" : "hover:bg-primary rounded-full items-center justify-center"}>
+                    <button className="p-2">
+                        <img src="menu-notification.svg" alt="" />
+                    </button>
+                </div>
             </Link>
             <Link to="/AdminDashboard">
                 <div className="btn hover:bg-primary rounded-full items-center justify-center">
@@ -63,4 +63,5 @@ const SideBar = () => {
         </div>
     )
 }
+
 export default SideBar
